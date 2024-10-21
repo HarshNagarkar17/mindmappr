@@ -8,7 +8,9 @@
   "overrides": [
     {
       "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-      "rules": {}
+      "rules": {
+          "@typescript-eslint/no-empty-object-type": "off"
+      }
     }
-  ]
+  ] 
 }
